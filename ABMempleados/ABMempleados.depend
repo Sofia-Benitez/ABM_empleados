@@ -1,0 +1,57 @@
+# depslib dependency file v1.0
+1620595027 source:c:\users\sofia\onedrive\desktop\utn\laboratorio 1 - programacion 1\abm_empleados\abmempleados\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"empleado.h"
+	"informes.h"
+	"sectores.h"
+
+1620589666 c:\users\sofia\onedrive\desktop\utn\laboratorio 1 - programacion 1\abm_empleados\abmempleados\empleados.h
+	"sectores.h"
+	"informes.h"
+
+1620592353 c:\users\sofia\onedrive\desktop\utn\laboratorio 1 - programacion 1\abm_empleados\abmempleados\sectores.h
+
+1620593205 c:\users\sofia\onedrive\desktop\utn\laboratorio 1 - programacion 1\abm_empleados\abmempleados\datawarehouse.h
+	"empleado.h"
+
+1620592460 source:c:\users\sofia\onedrive\desktop\utn\laboratorio 1 - programacion 1\abm_empleados\abmempleados\sectores.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"sectores.h"
+	"empleado.h"
+
+1620592518 source:c:\users\sofia\onedrive\desktop\utn\laboratorio 1 - programacion 1\abm_empleados\abmempleados\informes.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"informes.h"
+	"empleado.h"
+	"sectores.h"
+
+1620592443 c:\users\sofia\onedrive\desktop\utn\laboratorio 1 - programacion 1\abm_empleados\abmempleados\informes.h
+	"empleado.h"
+	"sectores.h"
+
+1620588976 source:c:\users\sofia\onedrive\desktop\utn\laboratorio 1 - programacion 1\abm_empleados\abmempleados\empleados.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"empleados.h"
+	"sectores.h"
+	"datawarehouse.h"
+
+1620594967 c:\users\sofia\onedrive\desktop\utn\laboratorio 1 - programacion 1\abm_empleados\abmempleados\empleado.h
+	"sectores.h"
+
+1620594757 source:c:\users\sofia\onedrive\desktop\utn\laboratorio 1 - programacion 1\abm_empleados\abmempleados\empleado.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"empleado.h"
+	"informes.h"
+	"sectores.h"
+	"datawarehouse.h"
+

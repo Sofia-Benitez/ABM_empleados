@@ -31,9 +31,22 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="datawarehouse.h" />
+		<Unit filename="empleado.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="empleado.h" />
+		<Unit filename="informes.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="informes.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="sectores.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sectores.h" />
 		<Extensions />
 	</Project>
 </CodeBlocks_project_file>
