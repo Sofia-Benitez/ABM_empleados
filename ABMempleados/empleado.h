@@ -2,14 +2,7 @@
 #define EMPLEADO_H_INCLUDED
 
 #include "sectores.h"
-
-
-typedef struct
-{
-    int dia;
-    int mes;
-    int anio;
-}eFecha;
+#include "fecha.h"
 
 typedef struct
 {

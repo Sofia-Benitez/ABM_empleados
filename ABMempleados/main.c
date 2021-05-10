@@ -4,10 +4,14 @@
 #include "empleado.h"
 #include "informes.h"
 #include "sectores.h"
+#include "comida.h"
+#include "almuerzo.h"
 
 
-#define TAM 10
-#define TAM_SEC 5
+#define TAM 14 /// empleados
+#define TAM_SEC 5 ///sector
+#define TAMC 5 /// comidas
+#define TAMA 20 ///almuerzo
 #define EDAD_DES 1//criterio 1: edad descendiente
 #define NOMBRE_ASC 0//criterio 0:Nombre ascendente(A-Z)
 #define SEX_DES_LEGAJO_ASC 2 //criterio 2:sexo descendente y legajo ascendente
@@ -21,6 +25,8 @@ int main()
     int criterioOrdenamiento;
     int opcionInformes;
 
+    int nextIdAlmuerzo=50000;
+
     eSector sectores[TAM_SEC]={
         {500, "Sistemas"},
         {501, "RRHH"},
@@ -29,21 +35,22 @@ int main()
         {504, "Ventas"}
         };
 
+    eComida comidas[TAMC]= {
+        {1000, "Milanesa", 100},
+        {1001, "Fideos", 50},
+        {1002, "Pizza", 150},
+        {1003, "Ensalada", 200},
+        {1004, "Empanadas", 75}
+        };
 
-    //datos harcodeados
-    /*eEmpleado nomina[TAM]= {
-                           {1, "Donato", 56, 'm', 215000, {25,05,2020},0},
-                           {2, "Chepi", 25, 'f', 54000, {25,05,2020},0},
-                           {3, "Betu", 37, 'm', 77000, {25,05,2020},0},
-                           {4, "Gaston", 30, 'm', 80000, {25,05,2020},0},
-                           {5, "Cande", 26, 'f', 100000, {25,05,2020},0}
-                           };*/
 
     eEmpleado nomina[TAM]; ///INICIALIZAR ESTRUCTURA SI NO HAY HARCODEO
 
     inicializarEmpleados(nomina, TAM);//setea todas las estructuras como disponibles
 
     harcodearEmpleados(nomina, TAM, 10, &nextId);
+
+    eAlmuerzo almuerzos[TAMA];
 
     while(seguir=='s')
     {
@@ -148,6 +155,13 @@ int main()
 
             break;
         case 8:
+            //comidas
+            mostrarComidas(comidas, TAMC);
+            break;
+        case 9:
+            printf("Alta almuerzo: \n");
+            break;
+        case 20:
             seguir='n';
             //salir, desea salir?
             break;
@@ -180,7 +194,11 @@ int menu()
     printf("5. Ordenar empleados\n");
     printf("6. Mostrar sectores\n");
     printf("7. Informes\n");
-    printf("8. Salir\n");
+    printf("8. Mostrar comidas\n");
+    printf("9. Alta almuerzo\n");
+    printf("10. Mostrar almuerzos\n");
+    printf("11. -------\n");
+    printf("20. Salir\n");
 
     printf("Ingrese opcion: ");
     scanf("%d", &opcion);

@@ -1,11 +1,13 @@
 # depslib dependency file v1.0
-1620595027 source:c:\users\sofia\onedrive\desktop\utn\laboratorio 1 - programacion 1\abm_empleados\abmempleados\main.c
+1620604291 source:c:\users\sofia\onedrive\desktop\utn\laboratorio 1 - programacion 1\abm_empleados\abmempleados\main.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	"empleado.h"
 	"informes.h"
 	"sectores.h"
+	"comida.h"
+	"almuerzo.h"
 
 1620589666 c:\users\sofia\onedrive\desktop\utn\laboratorio 1 - programacion 1\abm_empleados\abmempleados\empleados.h
 	"sectores.h"
@@ -43,8 +45,9 @@
 	"sectores.h"
 	"datawarehouse.h"
 
-1620594967 c:\users\sofia\onedrive\desktop\utn\laboratorio 1 - programacion 1\abm_empleados\abmempleados\empleado.h
+1620597951 c:\users\sofia\onedrive\desktop\utn\laboratorio 1 - programacion 1\abm_empleados\abmempleados\empleado.h
 	"sectores.h"
+	"fecha.h"
 
 1620594757 source:c:\users\sofia\onedrive\desktop\utn\laboratorio 1 - programacion 1\abm_empleados\abmempleados\empleado.c
 	<stdio.h>
@@ -54,4 +57,29 @@
 	"informes.h"
 	"sectores.h"
 	"datawarehouse.h"
+
+1620597911 c:\users\sofia\onedrive\desktop\utn\laboratorio 1 - programacion 1\abm_empleados\abmempleados\fecha.h
+
+1620597780 source:c:\users\sofia\onedrive\desktop\utn\laboratorio 1 - programacion 1\abm_empleados\abmempleados\almuerzo.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"almuerzo.h"
+	"empleado.h"
+	"informes.h"
+	"sectores.h"
+
+1620604318 c:\users\sofia\onedrive\desktop\utn\laboratorio 1 - programacion 1\abm_empleados\abmempleados\almuerzo.h
+	"fecha.h"
+	"empleado.h"
+	"sectores.h"
+	"comida.h"
+
+1620602560 source:c:\users\sofia\onedrive\desktop\utn\laboratorio 1 - programacion 1\abm_empleados\abmempleados\comida.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"comida.h"
+
+1620606374 c:\users\sofia\onedrive\desktop\utn\laboratorio 1 - programacion 1\abm_empleados\abmempleados\comida.h
 
